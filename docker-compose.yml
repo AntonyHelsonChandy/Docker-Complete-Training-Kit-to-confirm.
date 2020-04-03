@@ -1,0 +1,11 @@
+version: '2.0'
+services:
+  web:
+    build: .
+    ports:
+    - "8040:80"
+    volumes:
+    - ./src:/var/www/html
+    
+
+
