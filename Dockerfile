@@ -1,1 +1,3 @@
-FROM php:7.2-apache
+FROM nginx
+
+COPY new /usr/share/nginx/html
