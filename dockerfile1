@@ -3,4 +3,4 @@ FROM php
 COPY ./src /usr/src/myapp
 WORKDIR /usr/src/myapp
 
-CMD ["php","./run.php"]
+CMD ["php","./index.php"]
